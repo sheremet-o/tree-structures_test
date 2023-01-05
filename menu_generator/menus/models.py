@@ -13,7 +13,7 @@ class MenuItem(models.Model):
         null=True,
         on_delete=models.CASCADE
     )
-    url = models.URLField(
+    url = models.CharField(
         max_length=150,
         blank=True,
         null=True,
