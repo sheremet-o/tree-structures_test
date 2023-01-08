@@ -19,6 +19,6 @@
 `python manage.py migrate`  
 
 5. Запустите сервер  
-`flask run`  
+`python manage.py runserver`  
 web интервейс будет доступен по адресу http://127.0.0.1:8000/
 
